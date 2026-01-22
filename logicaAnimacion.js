@@ -8,7 +8,6 @@ gsap.registerPlugin(ScrollTrigger);
         const barra = gsap.timeline({
     scrollTrigger: {
         scrub: 1,
-        markers: true
     },
 })
 
