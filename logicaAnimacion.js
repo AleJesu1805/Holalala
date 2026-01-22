@@ -1,4 +1,10 @@
 gsap.registerPlugin(ScrollTrigger);
+
+ScrollTrigger.normalizeScroll(true);
+
+ScrollTrigger.config({
+  ignoreMobileResize: true
+});
     
 // ELEMENTOS 
     let korn = document.getElementById('Korn');
