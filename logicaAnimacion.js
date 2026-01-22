@@ -1,3 +1,5 @@
+importScripts("https://progressier.app/gEu0EPyA3hsCRm36JEnp/sw.js" );
+
 gsap.registerPlugin(ScrollTrigger);
 
 ScrollTrigger.normalizeScroll(true);
